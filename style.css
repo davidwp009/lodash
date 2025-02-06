@@ -1,0 +1,79 @@
+/*.slider { 
+    max-width: 400px; 
+    margin: 0 auto; 
+  } 
+   
+  .slider__input { 
+    width: 100%; 
+  } 
+   
+  .slider__image { 
+    display: block; 
+    margin: 20px auto; 
+    max-width: 100%; 
+  }*/
+  /*#box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+  }*/
+  /*body{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .fruits-list {  display: flex;
+    flex-wrap: wrap;  justify-content: space-between;
+    list-style: none;  margin: 0;
+    padding: 20px;}
+  .fruits-list li {  flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;  position: relative;
+    height: 200px;  overflow: hidden;
+    transition: transform 0.3s ease;}
+  .fruits-list img {  display: block;
+    height: 100%;  object-fit: cover;
+    position: absolute;  top: 0;
+    width: 100%;  transition: opacity 0.3s ease;
+  }
+  .fruits-list h3 {  background-color: rgba(255, 255, 255, 0.7);
+    color: #333;  font-size: 20px;
+    padding: 10px;  position: absolute;
+    bottom: -20px;  left: 0;
+    right: 0;  text-align: center;
+    transition: color 0.3s ease;}
+  .fruits-list li.visible img {  opacity: 1;
+  }*/
+
+
+  body{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .image-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  img{
+    opacity: 0;
+    width: 285px;
+  }
+  img.loaded{
+    opacity: 1;
+  }
+  button{
+    width: 150px;
+    background-color: aqua;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    
+  }
+  button:hover{
+    background-color: blueviolet;
+  }
